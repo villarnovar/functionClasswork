@@ -5,9 +5,6 @@ function squareNumber(num){
     return squnum;
 }
 
-
-
-
 function halfNumber(num2){
     var half = num2 / 2;
     console.log("Half of " + num2 + " is " + half);
@@ -21,8 +18,6 @@ function percentOf(top,deno){
     console.log(top + " is " + percent +" % of " + deno);
     return percent;
 }
-
-
 
 function areaOfCircle(radius){
     var area = (Math.PI * squareNumber(radius)).toFixed(2);
